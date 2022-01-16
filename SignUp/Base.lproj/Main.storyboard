@@ -32,7 +32,7 @@
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="emailAddress" returnKeyType="next" textContentType="email"/>
                                                     <connections>
-                                                        <action selector="emailDidChange:" destination="3o8-2d-ptv" eventType="editingDidEnd" id="qk7-Sr-d0E"/>
+                                                        <action selector="emailDidChange:" destination="3o8-2d-ptv" eventType="editingChanged" id="8bb-xo-Hbl"/>
                                                     </connections>
                                                 </textField>
                                             </subviews>
@@ -57,9 +57,9 @@
                                                         <constraint firstAttribute="height" constant="48" id="HBC-k6-BsE"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                    <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="emailAddress" returnKeyType="next" textContentType="email"/>
+                                                    <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="emailAddress" returnKeyType="next" secureTextEntry="YES" textContentType="email"/>
                                                     <connections>
-                                                        <action selector="passwordDidChange:" destination="3o8-2d-ptv" eventType="editingDidEnd" id="YfT-hw-97F"/>
+                                                        <action selector="passwordDidChange:" destination="3o8-2d-ptv" eventType="editingChanged" id="8VN-s2-xRO"/>
                                                     </connections>
                                                 </textField>
                                             </subviews>
@@ -84,9 +84,9 @@
                                                         <constraint firstAttribute="height" constant="48" id="rEK-N7-xYB"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                    <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="emailAddress" returnKeyType="next" textContentType="email"/>
+                                                    <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="emailAddress" returnKeyType="next" secureTextEntry="YES" textContentType="email"/>
                                                     <connections>
-                                                        <action selector="passwordConfirmationDidChange:" destination="3o8-2d-ptv" eventType="editingDidEnd" id="6QM-sN-UsE"/>
+                                                        <action selector="passwordConfirmationDidChange:" destination="3o8-2d-ptv" eventType="editingChanged" id="3FN-UK-Zw0"/>
                                                     </connections>
                                                 </textField>
                                             </subviews>
@@ -206,13 +206,13 @@
             <size key="intrinsicContentSize" width="111.5" height="18.5"/>
         </designable>
         <designable name="cqr-yM-O0k">
-            <size key="intrinsicContentSize" width="169.5" height="18.5"/>
+            <size key="intrinsicContentSize" width="169.5" height="17"/>
         </designable>
         <designable name="dk6-er-Qon">
             <size key="intrinsicContentSize" width="53" height="17"/>
         </designable>
         <designable name="lUp-Id-1jd">
-            <size key="intrinsicContentSize" width="82.5" height="18.5"/>
+            <size key="intrinsicContentSize" width="82.5" height="17"/>
         </designable>
     </designables>
 </document>
